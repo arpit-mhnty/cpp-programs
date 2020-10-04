@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 // what is array? - it is a collection of items of similar type stored in contigous location.
-int marks[4] = {23 , 33, 55, 66,};
+int marks[4] = {21 , 38, 85, 06, 12};
 
 cout<<marks[0]<<endl;
 cout<<marks[1]<<endl;
@@ -13,14 +13,14 @@ marks[2] = 96;
 cout<<marks[2]<<endl;
 cout<<marks[3]<<endl;
 
-for (int i = 0; i < 4; i++)
+for (int i = 0; i < 5; i++)
 {
     /* code */
     cout<<"the value of marks "<<i<<"is "<<marks[i]<<endl;
 }
 
 int i = 0;
-while (i<4)
+while (i<5)
 {
     cout<<"the value of marks"<<i<<"is"<<marks[i]<<endl;
     i++;
