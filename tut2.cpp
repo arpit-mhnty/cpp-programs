@@ -5,7 +5,7 @@ using namespace std;
 //thi program was created by me
 int main()
 {
-    int sum = 6;
-    cout << "Enter the number "<<sum<<endl;
+    int sub = 67;
+    cout << "Enter the number" << sub <<endl;
     return 0;
 }
